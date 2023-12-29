@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rekolekcje RMS Bielsko-Biała</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon//favicon-16x16.png">
+  <link rel="manifest" href="./favicon//site.webmanifest">
+  <link rel="mask-icon" href="./favicon//safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="logo-container">
+          <img src="assets/logo.svg" alt="logo" class="logo">
+          <h3 class="logo-title">RMS Bielsko-Biała</h3>
+        </div>
+        <div class="menu">
+          <span class="menu__btn menu__btn-js">
+            <img src="assets/menu-btn.svg" alt="menu-icon" class="menu-icon">
+          </span>
+          <ul class="menu__list menu__list-js ">
+            <li class="menu__element">
+              <a href="#topic" class="menu__link menu__link-js">Temat</a>
+            </li>
+            <li class="menu__element">
+              <a href="#prelegents" class="menu__link menu__link-js">Prowadzący</a>
+            </li>
+            <li class="menu__element">
+              <a href="#plan" class="menu__link menu__link-js">Plan</a>
+            </li>
+            <li class="menu__element">
+              <a href="#items-to-take" class="menu__link menu__link-js">Co zabrać?</a>
+            </li>
+            <li class="menu__element">
+              <a href="#place" class="menu__link menu__link-js">Miejsce</a>
+            </li>
+            <li class="menu__element">
+              <a href="#price" class="menu__link menu__link-js">Cena</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1 class="header-title">Do czego zostałeś <span class="highlight">stworzony</span>?</h1>
+      <p class="header-description">
+        Jeśli szukasz odpowiedzi, albo chcesz posłuchać osób, które ją zalazły, to spędź z nami czas.
+      </p>
+      <img class="hero-image" src="./assets/create-pic.svg" alt='hero image' />
+      <div class="header-countdown">
+        <div id="countdown" class="countdown-timer">
+          <h4 class="date">4-6 kwietnia 2023</h4>
+          <ul>
+            <li><span>12</span>dni</li>
+            <li><span>17</span>godzin</li>
+            <li><span>36</span>minut</li>
+            <li><span>09</span>sekund</li>
+          </ul>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div>
+      <a class="btn join-btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSernkC6fRIfU2L2anJGdI1Jhr93egFzUOUGivGje6nAg21jnQ/viewform?usp=sf_link">
+        Zapisz się teraz
+
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="topic" id="topic">
+        <h2><span class="highlight">temat</span> </h2>
+        Powołanie to trudny temat zwłaszcza w młodym wieku, dlatego chcemy ten weekend spędzić na słuchaniu osób, które
+        już je odkryły i chcą się tym dzielić. Nie zabraknie też integracji, dobrej zabawy i odpoczynku od brudnego
+        miasta i szkoły.
+        <p><strong>Nie może Ciebie zabraknąć!</strong></p>
+      </section>
+      <section class="prelegents" id="prelegents">
+        <h2><span class="highlight">prowadzący</span></h2>
+
+        <div class="prelegents-container">
+          <div class="prelegent">
+            <div class="image-container">
+
+              <img src="./assets/asheafi-abebe.jpeg" alt="Ashenafi Abebe" class="prelegent-img" loading="lazy">
+            </div>
+
+            <h4 class="prelegent-name">o. Ashenafi Abebe</h4>
+            <p class="prelegent-desc"> Jego imię znaczy "miłość zwycięży". Na co dzień jest kapłanem oddanym Matce
+              Bożej
+              głoszącym Jezusa po całym świecie.
+            </p>
+          </div>
+          <div class="prelegent">
+            <div class="image-container">
+              <img src="./assets/marek-sawicki.jpg" alt="Marek Sawicki" class="prelegent-img" loading="lazy">
+            </div>
+            <h4 class="prelegent-name">ks. Marek Sawicki SDS</h4>
+            <p class="prelegent-desc">Zawsze uśmiechnięty z wyciągniętą pomocną dłonią. Idealny przykład, że Boży
+              plan odkrywa się z czasem. </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="desktop-container">
+        <section class="plan" id="plan">
+          <h2><span class="highlight">plan</span></h2>
+          <ul class="transport">
+            <li>
+              <span class="train"> 🚆 BB <svg xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <line x1="15" y1="16" x2="19" y2="12"></line>
+                  <line x1="15" y1="8" x2="19" y2="12"></line>
+                </svg>
+                Sól-Kiczora</span>
+              <span class="hour">🕛 Piątek 17:03 </span> <small> bądźcie już koło 16:45 na dworcu
+              </small>
+            </li>
+            <li> <span class="train">🚆 Sól-Kiczora <svg xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <line x1="15" y1="16" x2="19" y2="12"></line>
+                  <line x1="15" y1="8" x2="19" y2="12"></line>
+                </svg> BB</span> <span class="hour">🕛 Niedziela 13:36</span> <small> koło 15:00 jesteśmy w Bielsku
+              </small>
+            </li>
+          </ul>
+
+          <div class="specific-plan">szczegółowy plan na miejscu 😉 </div>
+        </section>
+
+        <section class="items-to-take" id="items-to-take">
+          <h2><span class="highlight">co zabrać?</span> </h2>
+          <ul class="items">
+            <li>📝 Zgodę rodzica <small>
+                <a href="./zgoda.pdf" download>pobierz tutaj</a>
+              </small> 
+            </li>
+            <li>📖 Pismo Święte</li>
+            <li>🍭 Coś słodkiego</li>
+            <li>😴 Śpiwór</li>
+            <li>🧦 Ciepłe ubrania</li>
+            <li>🧩 Fajną planszówkę jak posiadasz</li>
+            <li>👠 Kapcie</li>
+            <li>💸 Pieniądze <small class="gray">rozliczymy się na miejscu</small></li>
+            <li>🤪 Dobry humor</li>
+          </ul>
+        </section>
+
+        <section class="place" id="place">
+          <h2><span class="highlight">miejsce</span> </h2>
+          <div class="place-conatiner">
+            <h5 class="place-name">Luce Chata</h5>
+            <h6 class="place-desc"><a
+                href="https://www.google.com/maps?ll=49.520378,19.039127&z=10&t=m&hl=pl-PL&gl=US&mapclient=embed&q=Nieledwia+160+34-360">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24"
+                  height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <circle cx="12" cy="11" r="3"></circle>
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                </svg> Nieledwia
+                160</a> <span>(5 minut za Milówką)</span></h6>
+            <p>Klimatyczna chatka w górach. Miejsce, w którym można odpocząć od miasta, ale też spędzić dobry czas z
+              rodziną albo znajomymi. Na ten weekend zamienia się w naszą bazę, w której będziemy poznawać Boga i razem
+              się
+              integrować.</p>
+          </div>
+        </section>
+
+        <section class="price" id="price">
+          <h2><span class="highlight">cena</span> </h2>
+          <div class="price-container">
+            <h3 class="main-price">80zł
+              <img src="./assets/price-line.svg" alt="decorator" class="decorator">
+            </h3>
+
+            <ul class="price-value">
+              <li>🏠 Nocleg</li>
+              <li>🥗 Wyżywienie</li>
+              <li>🚆 Transport</li>
+              <li>🚀 Atrakcje</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span class="ask highlight">masz pytania? pisz, dzwoń!</span>
+    <div class="footer-person-container">
+      <span class="footer-person"><strong>ks. Marek Sawicki SDS</strong> <span class="function">(opiekun) </span> <a
+          href="tel:654323454" class="phone"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-phone" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+            </path>
+          </svg> 657343279</a></span>
+      <span class="footer-person"><strong>Michasia Mamak</strong> <span class="function">(liderka) </span></span>
+      <span class="footer-person"><strong>Wojciech Wichary</strong> <span class="function">(pisz jak coś Cię trapi 😉)
+        </span></span>
+    </div>
+
+    <p class="good-day">Miłego dnia!</p>
+
+    <div class="copyrights">
+      <div class="logo-container">
+        <img src="assets/logo.svg" alt="logo" class="logo">
+        <h3 class="logo-title">RMS Bielsko-Biała</h3>
+      </div>
+      <span class="author">stworzone z ❤️ przez
+        <a href="https://www.facebook.com/w.wichary" class="author-link" target="_blank" rel="noopener">ww</a></span>
+
+    </div>
+  </footer>
+  <script src="./index.min.js"></script>
+</body>
+
+</html>
